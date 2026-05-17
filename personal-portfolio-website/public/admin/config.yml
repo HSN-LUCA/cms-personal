@@ -2,12 +2,9 @@ backend:
   name: git-gateway
   branch: main
 
-# Where uploaded images get stored (served from public/)
-media_folder: public/images
+# Where uploaded images get stored
+media_folder: personal-portfolio-website/public/images
 public_folder: /images
-
-# Allow editorial workflow (draft → review → publish)
-publish_mode: editorial_workflow
 
 collections:
 
@@ -17,7 +14,7 @@ collections:
     files:
       - name: profile
         label: Personal Info
-        file: src/content/profile.json
+        file: personal-portfolio-website/src/content/profile.json
         format: json
         fields:
           - { label: Full Name, name: name, widget: string }
@@ -33,7 +30,7 @@ collections:
             fields:
               - { label: LinkedIn URL, name: linkedin, widget: string }
               - { label: GitHub URL, name: github, widget: string }
-              - { label: "WhatsApp (phone number, optional)", name: whatsapp, widget: string, required: false }
+              - { label: "WhatsApp (optional)", name: whatsapp, widget: string, required: false }
 
   # ─── Skills ─────────────────────────────────────────────────────────────────
   - name: skills
@@ -41,7 +38,7 @@ collections:
     files:
       - name: skills
         label: Skills
-        file: src/content/skills.json
+        file: personal-portfolio-website/src/content/skills.json
         format: json
         fields:
           - label: Skill Categories
@@ -65,7 +62,7 @@ collections:
     files:
       - name: experience
         label: Work Experience
-        file: src/content/experience.json
+        file: personal-portfolio-website/src/content/experience.json
         format: json
         fields:
           - label: Experience Entries
@@ -74,8 +71,8 @@ collections:
             fields:
               - { label: Job Title, name: title, widget: string }
               - { label: Company, name: company, widget: string }
-              - { label: "Start Date (YYYY-MM)", name: startDate, widget: string, pattern: ['^\d{4}-\d{2}$', "Use YYYY-MM format, e.g. 2022-03"] }
-              - { label: "End Date (YYYY-MM or leave blank for current)", name: endDate, widget: string, required: false }
+              - { label: "Start Date (YYYY-MM)", name: startDate, widget: string }
+              - { label: "End Date (YYYY-MM, leave blank if current)", name: endDate, widget: string, required: false }
               - { label: Description, name: description, widget: text }
 
   # ─── Certifications ─────────────────────────────────────────────────────────
@@ -84,7 +81,7 @@ collections:
     files:
       - name: certifications
         label: Certifications
-        file: src/content/certifications.json
+        file: personal-portfolio-website/src/content/certifications.json
         format: json
         fields:
           - label: Certifications
@@ -102,7 +99,7 @@ collections:
     files:
       - name: projects
         label: Projects
-        file: src/content/projects.json
+        file: personal-portfolio-website/src/content/projects.json
         format: json
         fields:
           - label: Projects
@@ -122,7 +119,7 @@ collections:
     files:
       - name: services
         label: Services
-        file: src/content/services.json
+        file: personal-portfolio-website/src/content/services.json
         format: json
         fields:
           - label: Services
@@ -139,7 +136,7 @@ collections:
     files:
       - name: testimonials
         label: Testimonials
-        file: src/content/testimonials.json
+        file: personal-portfolio-website/src/content/testimonials.json
         format: json
         fields:
           - label: Testimonials
@@ -154,7 +151,7 @@ collections:
   # ─── Blog Posts ─────────────────────────────────────────────────────────────
   - name: blog
     label: Blog Posts
-    folder: src/content/blog
+    folder: personal-portfolio-website/src/content/blog
     create: true
     slug: "{{slug}}"
     extension: md
