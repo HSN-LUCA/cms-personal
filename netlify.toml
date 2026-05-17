@@ -1,16 +1,10 @@
 [build]
-  base    = "personal-portfolio-website"
-  command = "npm run build"
-  publish = "dist"
+  command = "cd personal-portfolio-website && npm install && npm run build"
+  publish = "personal-portfolio-website/dist"
 
 [build.environment]
   NODE_VERSION = "20"
   NODE_OPTIONS = "--max-old-space-size=4096"
-
-# Watch the entire repo for changes, not just the base directory
-# This ensures CMS content edits (in src/content/) trigger a rebuild
-[context.production]
-  ignore = ""
 
 [[redirects]]
   from   = "/*"
