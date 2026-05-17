@@ -1,7 +1,7 @@
 [build]
   base    = "personal-portfolio-website"
   command = "npm run build"
-  publish = "personal-portfolio-website/dist"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "20"
