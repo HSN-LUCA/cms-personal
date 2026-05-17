@@ -1,16 +1,10 @@
 [build]
-  base    = "personal-portfolio-website"
-  command = "npm install && npm run build"
-  publish = "dist"
+  command = "cd personal-portfolio-website && npm install && npm run build"
+  publish = "personal-portfolio-website/dist"
 
 [build.environment]
   NODE_VERSION = "20"
   NODE_OPTIONS = "--max-old-space-size=4096"
-
-# Tell Netlify to rebuild when ANY file in the repo changes
-# (not just files inside the base directory)
-[build.processing]
-  skip_processing = false
 
 [[redirects]]
   from   = "/*"
