@@ -1,0 +1,13 @@
+[build]
+  base    = "personal-portfolio-website"
+  command = "npm run build"
+  publish = "personal-portfolio-website/dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NODE_OPTIONS = "--max-old-space-size=4096"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200

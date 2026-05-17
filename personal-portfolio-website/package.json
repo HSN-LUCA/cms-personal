@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:netlify": "node --max-old-space-size=4096 node_modules/.bin/tsc -b && node --max-old-space-size=4096 node_modules/.bin/vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
