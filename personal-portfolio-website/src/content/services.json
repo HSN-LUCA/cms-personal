@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Web Application Development",
+    "description": "End-to-end development of responsive, performant web applications using React, TypeScript, and modern tooling. From architecture design to production deployment.",
+    "icon": "Code2"
+  },
+  {
+    "title": "UI/UX Implementation",
+    "description": "Translating Figma designs into pixel-perfect, accessible interfaces. I bridge the gap between design and engineering to deliver polished user experiences.",
+    "icon": "Palette"
+  },
+  {
+    "title": "API & Backend Development",
+    "description": "Design and implementation of RESTful and GraphQL APIs using Node.js and Express. Database modeling, authentication, and third-party integrations included.",
+    "icon": "Database"
+  },
+  {
+    "title": "Performance Optimization",
+    "description": "Auditing and improving web application performance — from bundle size reduction and lazy loading to server-side rendering and caching strategies.",
+    "icon": "Layers"
+  },
+  {
+    "title": "Mobile-Responsive Design",
+    "description": "Building interfaces that look and work great on every screen size, from mobile phones to large desktop monitors, using responsive CSS and adaptive layouts.",
+    "icon": "Smartphone"
+  },
+  {
+    "title": "Technical Consulting",
+    "description": "Architecture reviews, technology stack recommendations, and code audits for teams looking to scale their frontend or full-stack applications confidently.",
+    "icon": "Globe"
+  }
+]

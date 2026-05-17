@@ -1,0 +1,18 @@
+[
+  {
+    "author": "Sarah Chen",
+    "role": "Head of Product at Luminary Labs",
+    "photo": "/images/profile.jpg",
+    "text": "Alex is one of the most thoughtful engineers I've worked with. They have a rare ability to deeply understand product requirements and translate them into clean, maintainable code. The component library they built has become the foundation of our entire frontend — it's saved us countless hours and made onboarding new engineers a breeze."
+  },
+  {
+    "author": "Marcus Okafor",
+    "role": "CTO at Nexbridge Technologies",
+    "text": "We brought Alex in to help us modernize a legacy React codebase, and the results exceeded our expectations. They identified performance bottlenecks we hadn't even noticed, proposed pragmatic solutions, and executed the migration with minimal disruption to the team. I'd hire them again without hesitation."
+  },
+  {
+    "author": "Priya Nair",
+    "role": "Lead Designer at Pixel & Craft Agency",
+    "text": "Working with Alex was a pleasure from day one. They took our designs seriously and always pushed back constructively when something wasn't technically feasible — always with an alternative solution in hand. The sites we shipped together consistently scored high on accessibility and performance audits."
+  }
+]

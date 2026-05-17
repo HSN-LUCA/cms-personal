@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Trackify – Shipment Tracking Dashboard",
+    "description": "A real-time logistics dashboard that lets operations teams monitor shipments across multiple carriers. Built with React, TypeScript, and WebSockets for live updates. Features an interactive map view, status filters, and exportable reports.",
+    "tags": ["React", "TypeScript", "WebSockets", "Node.js", "PostgreSQL"],
+    "thumbnail": "/images/project-1.jpg",
+    "demoUrl": "https://trackify-demo.example.com",
+    "repoUrl": "https://github.com/alex-rivera-dev/trackify"
+  },
+  {
+    "title": "Inkwell – Minimal Blogging Platform",
+    "description": "A lightweight, Markdown-based blogging platform with a clean reading experience. Supports syntax highlighting, dark mode, and RSS feeds. Deployed on Vercel with a serverless Node.js backend and a PostgreSQL database.",
+    "tags": ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Vercel"],
+    "thumbnail": "/images/project-2.jpg",
+    "repoUrl": "https://github.com/alex-rivera-dev/inkwell"
+  },
+  {
+    "title": "BudgetBuddy – Personal Finance Tracker",
+    "description": "A mobile-first personal finance app that helps users categorize expenses, set monthly budgets, and visualize spending trends with interactive charts. Built with React Native for iOS and Android, with a shared REST API backend.",
+    "tags": ["React Native", "Expo", "Node.js", "Express", "SQLite"],
+    "thumbnail": "/images/project-3.jpg",
+    "demoUrl": "https://budgetbuddy-demo.example.com",
+    "repoUrl": "https://github.com/alex-rivera-dev/budgetbuddy"
+  },
+  {
+    "title": "DevDeck – Developer Portfolio Generator",
+    "description": "A CLI tool and web interface that generates a customizable portfolio site from a single YAML config file. Supports multiple themes, GitHub integration for automatic project syncing, and one-click Vercel deployment.",
+    "tags": ["Node.js", "CLI", "React", "YAML", "GitHub API"],
+    "thumbnail": "/images/project-1.jpg",
+    "repoUrl": "https://github.com/alex-rivera-dev/devdeck"
+  }
+]

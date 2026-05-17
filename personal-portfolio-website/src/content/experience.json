@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Senior Frontend Engineer",
+    "company": "Luminary Labs",
+    "startDate": "2022-03",
+    "endDate": null,
+    "description": "Lead the frontend architecture for a SaaS analytics platform serving 50,000+ monthly active users. Migrated the codebase from Create React App to Vite, reducing build times by 70%. Introduced a component library built on shadcn/ui and Tailwind CSS, cutting design-to-code time in half. Mentored a team of three junior engineers through code reviews and pair programming sessions."
+  },
+  {
+    "title": "Full-Stack Engineer",
+    "company": "Nexbridge Technologies",
+    "startDate": "2019-07",
+    "endDate": "2022-02",
+    "description": "Built and maintained customer-facing features for a B2B logistics platform using React, Node.js, and PostgreSQL. Designed and implemented a real-time shipment tracking dashboard using WebSockets, reducing customer support tickets by 30%. Collaborated with the DevOps team to containerize services with Docker and set up automated CI/CD pipelines on GitHub Actions."
+  },
+  {
+    "title": "Junior Web Developer",
+    "company": "Pixel & Craft Agency",
+    "startDate": "2017-09",
+    "endDate": "2019-06",
+    "description": "Developed responsive marketing websites and landing pages for clients across e-commerce, healthcare, and education sectors. Worked closely with designers to implement pixel-perfect layouts using HTML, CSS, and vanilla JavaScript. Gained hands-on experience with WordPress theme development and performance optimization techniques."
+  }
+]

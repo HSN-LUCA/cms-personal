@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1e1b4b"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#grad1)"/>
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#312e81;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <text x="600" y="280" text-anchor="middle" font-family="sans-serif" font-size="48" font-weight="bold" fill="#e0e7ff">Vite Migration</text>
+  <text x="600" y="340" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#a5b4fc">From CRA to Vite</text>
+  <text x="600" y="600" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#6366f1">Blog Cover Image 1</text>
+</svg>

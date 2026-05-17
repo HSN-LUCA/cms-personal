@@ -1,0 +1,14 @@
+{
+  "name": "Alex Rivera",
+  "title": "Full-Stack Software Engineer",
+  "tagline": "Building elegant, performant web experiences from idea to deployment.",
+  "bio": "I'm a full-stack software engineer with over six years of experience designing and shipping production-grade web applications. I specialize in React, TypeScript, and Node.js, with a strong focus on clean architecture, developer experience, and accessibility. I've worked across startups and mid-sized product companies, leading frontend teams and collaborating closely with designers and product managers to turn complex requirements into intuitive interfaces.\n\nOutside of work, I contribute to open-source projects, write about software engineering on my blog, and mentor junior developers through online communities. I believe great software is built at the intersection of technical rigor and genuine empathy for the people who use it.",
+  "photo": "/images/profile.jpg",
+  "resumeUrl": "/resume.pdf",
+  "email": "alex.rivera@example.com",
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/alex-rivera-dev",
+    "github": "https://github.com/alex-rivera-dev",
+    "whatsapp": "+15551234567"
+  }
+}

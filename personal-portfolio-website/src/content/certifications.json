@@ -1,0 +1,19 @@
+[
+  {
+    "name": "AWS Certified Developer – Associate",
+    "issuer": "Amazon Web Services",
+    "issueDate": "2023-05",
+    "verificationUrl": "https://www.credly.com/badges/example-aws-developer-associate"
+  },
+  {
+    "name": "Professional Scrum Master I (PSM I)",
+    "issuer": "Scrum.org",
+    "issueDate": "2022-11",
+    "verificationUrl": "https://www.scrum.org/certificates/example-psm1"
+  },
+  {
+    "name": "Meta Front-End Developer Certificate",
+    "issuer": "Meta (via Coursera)",
+    "issueDate": "2021-08"
+  }
+]

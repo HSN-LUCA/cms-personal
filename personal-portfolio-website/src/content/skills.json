@@ -1,0 +1,35 @@
+[
+  {
+    "category": "Frontend",
+    "items": [
+      { "name": "React", "level": "expert" },
+      { "name": "TypeScript", "level": "expert" },
+      { "name": "Tailwind CSS", "level": "advanced" },
+      { "name": "Next.js", "level": "advanced" },
+      { "name": "Framer Motion", "level": "intermediate" },
+      { "name": "HTML5 & CSS3", "level": "expert" }
+    ]
+  },
+  {
+    "category": "Backend",
+    "items": [
+      { "name": "Node.js", "level": "advanced" },
+      { "name": "Express", "level": "advanced" },
+      { "name": "PostgreSQL", "level": "intermediate" },
+      { "name": "REST APIs", "level": "expert" },
+      { "name": "GraphQL", "level": "intermediate" },
+      { "name": "Redis", "level": "beginner" }
+    ]
+  },
+  {
+    "category": "Tools & DevOps",
+    "items": [
+      { "name": "Git & GitHub", "level": "expert" },
+      { "name": "Docker", "level": "intermediate" },
+      { "name": "Vite", "level": "advanced" },
+      { "name": "Vercel", "level": "advanced" },
+      { "name": "Jest & Vitest", "level": "advanced" },
+      { "name": "CI/CD (GitHub Actions)", "level": "intermediate" }
+    ]
+  }
+]
