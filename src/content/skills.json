@@ -1,0 +1,22 @@
+{
+  "root": [
+    {
+      "category": "Digital",
+      "items": [
+        {
+          "name": "Digital Transformation",
+          "level": "advanced"
+        }
+      ]
+    },
+    {
+      "category": "Tools & DevOps",
+      "items": [
+        {
+          "name": "Git & GitHub - Docker - Vite Vercel Jest & Vitest CI/CD (GitHub Actions)",
+          "level": "advanced"
+        }
+      ]
+    }
+  ]
+}
