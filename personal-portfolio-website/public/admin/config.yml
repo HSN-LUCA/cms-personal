@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: HSN-LUCA/cms-personal
+  name: git-gateway
   branch: main
 
 # Where uploaded images get stored (served from public/)
